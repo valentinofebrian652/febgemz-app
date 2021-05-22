@@ -6,12 +6,15 @@ use Illuminate\Http\Request;
 
 class HelloController extends Controller
 {
-    public function index()
-    {
-        return view("hello");
-    }
-    public function page2()
-    {
-        return view("page2");
-    }
+	public function home(){
+		return view('home0236');
+	}
+ 
+	public function artikel(){
+		return view('artikel0236');
+	}
+ 
+	public function kontak(){
+		return view('kontak0236');
+	}
 }

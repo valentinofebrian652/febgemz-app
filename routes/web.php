@@ -15,7 +15,7 @@ use App\Http\Controllers\HelloController;
 */
 
 Route::get('/', function () {
-    return 'Hello Word';
+    return view ("home0236");
 });
-Route::get('/hello', [HelloController::class, 'index']);
-Route::get('/page2', [HelloController::class, 'page2']);
+Route::get('/artikel0236', [HelloController::class, 'artikel']);
+Route::get('/kontak0236', [HelloController::class, 'kontak']);
